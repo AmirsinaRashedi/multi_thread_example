@@ -1,0 +1,8 @@
+problem: the number of successful withdrawals from the accounts where 
+one more than it was possible and the delay caused by the threads sleeping
+after confirmation of enough funds being available but before deduction that
+amount from the savings which results in a false positive withdrawal from
+the account.
+
+Solution: moved the deduction of amount from balance to before the sleeping
+Of the thread  
